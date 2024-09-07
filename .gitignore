@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+# Rust
+target/
+*.exe
+*.pdb
+Cargo.lock
+# TypeScript / Node
+node_modules/
+dist/
+build/
+*.js.map
+*.tsbuildinfo
+# Go
+bin/
+*.test
+*.out
+# Misc
+.DS_Store
+.idea/
+.vscode/
+# Extra build outputs
+*.egg-info/
+.ruff_cache/
+out/
+coverage/
+*.d.ts.map
+vendor/
+*.so
+*.dylib
